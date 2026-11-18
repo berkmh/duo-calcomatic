@@ -1,0 +1,14 @@
+:root{--case:#ece4d1;--ink:#2b2621;--accent:#c4502a;--muted:#7a6e5c;--lcd:#b5c2a6;--lcdink:#1d261c}
+*{box-sizing:border-box}
+body{margin:0;background:#2a2a2d;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Rounded","Helvetica Neue",sans-serif;line-height:1.55}
+main{max-width:680px;margin:40px auto;padding:44px 36px;background:var(--case);border-radius:22px;box-shadow:0 20px 60px rgba(0,0,0,.45)}
+.lcd{background:linear-gradient(var(--lcd),#a3b192);color:var(--lcdink);border:6px solid #303033;border-radius:12px;padding:14px 18px;text-align:right;font:600 2.2rem/1 "Courier New",monospace;letter-spacing:.08em;margin:0 0 1.2rem}
+h1{font-size:1.6rem;text-align:center;margin:0 0 .2rem;letter-spacing:.02em}
+h2{font-size:1rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:2rem 0 .5rem}
+.sub{text-align:center;color:var(--muted);margin:0 0 1.6rem}
+a{color:var(--accent)}
+nav{text-align:center;margin-bottom:1.5rem;font-size:.95rem}
+nav a{margin:0 .6rem}
+code{background:rgba(0,0,0,.07);padding:.05em .35em;border-radius:5px}
+footer{text-align:center;color:var(--muted);font-size:.85rem;margin:2.5rem 0 0}
+@media (max-width:720px){main{margin:16px;padding:30px 20px}}
